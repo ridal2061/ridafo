@@ -24,9 +24,17 @@ About Accelerated Mobile Pages (AMP)">
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
   <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
   <script data-ad-client="ca-pub-7197876384409150" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-  
+  <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
 </head>
-<body><amp-sidebar id="sidebar" class="cid-rBnKuMyqss" layout="nodisplay" side="right">
+<body>
+  <amp-auto-ads
+    type="adsense"
+    data-ad-client="ca-pub-7197876384409150">;
+  </amp-auto-ads>
+  
+  
+  
+  <amp-sidebar id="sidebar" class="cid-rBnKuMyqss" layout="nodisplay" side="right">
         <div class="builder-sidebar" id="builder-sidebar">
             <button on="tap:sidebar.close" class="close-sidebar">
                 <span></span>
