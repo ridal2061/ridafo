@@ -1,0 +1,4 @@
+    - name: Optimize AMP
+      uses: asurbernardo/amp-optimizer-action@1.0.2
+      with:
+        root: 'public'
